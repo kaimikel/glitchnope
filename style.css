@@ -14,7 +14,7 @@ html {
 body {
   margin: 1rem;
   font-family: sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   background-color : black;
   color: white;
 }
@@ -23,5 +23,5 @@ body {
 img,
 video {
   height: auto;
-  max-width: 80%;
+  max-width: 90%;
 }
