@@ -25,4 +25,5 @@ video {
   height: auto;
   max-width: 85%;
   position: center center;
+  object-fit: cover;
 }
