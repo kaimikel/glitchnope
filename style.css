@@ -23,7 +23,7 @@ body {
 img,
 video {
   height: auto;
-  max-width: 85%;
+  max-width: 100%;
   position: center center;
   object-fit: cover;
 }
