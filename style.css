@@ -13,14 +13,14 @@ html {
 /* adjust typography defaults */
 body {
   margin: 1rem;
-  font-family: sans-serif;
+  font-family: 'Mukta', sans-serif;
   line-height: 1;
   background-color : black;
   color: white;
 }
 
 
-article.header { 
+article#title { 
  font-size: 24px;
   background-color: black;
   color: white;
@@ -35,4 +35,16 @@ video {
   max-width: 100%;
   position: center center;
   object-fit: cover;
+}
+
+
+p3{
+  font-size: 16px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+p3:hover{
+  text-decoration: bold;
+  color: grey;
+
 }
