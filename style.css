@@ -46,6 +46,12 @@ video2 {
 }
 
 
+links{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 p3{
   font-size: 16px;
   font-family:"futura-pt",sans-serif;
