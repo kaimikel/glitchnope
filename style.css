@@ -21,7 +21,7 @@ body {
 
 
 article#title { 
- font-size: 24px;
+ font-size: 50px;
   background-color: black;
   color: white;
   line-height: 1.2;
@@ -39,7 +39,7 @@ video {
 
 
 p3{
-  font-size: 12px;
+  font-size: 20px;
   font-family:"futura-pt",sans-serif;
 }
 
