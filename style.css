@@ -19,6 +19,11 @@ body {
   color: white;
 }
 
+
+article.header { 
+ font-size: 14px; 
+}
+
 /* images and videos max out at full width */
 img,
 video {
