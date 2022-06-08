@@ -2,8 +2,15 @@
   <head> </head>
   <body>
     <div id="container">
-      <h3>Hellow</h3>
-      <button class="color-changer">Click</button>
+      <h3>Hellow
+      </h3>
+      
+      <p>
+        Hi lo
+      </p>
+      <button class="color-changer">
+        Click
+      </button>
     </div>
     <script>
       var x = 12;
@@ -13,6 +20,19 @@
 
     <script>
       var containerElement = document.querySelector("#container");
+      var pElement = document.querySelectorAll("p");
+      var buttonElement = document.querySelector('.color-changer');
+      
+      
+      var x = 1 ;
+      
+      var thisWorks = function(){
+        x=x+1;
+        
+        console.log(x);
+         
+      } 
+      buttonElement.addEventListener('click', thisWorks)
     </script>
   </body>
 </html>
