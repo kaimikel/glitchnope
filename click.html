@@ -4,10 +4,11 @@
     <div id="container">
       <h3>Hellow
       </h3>
-      
+      Sup
       <p>
         Hi lo
       </p>
+   
       <button class="color-changer">
         Click
       </button>
@@ -17,10 +18,18 @@
       x = x + 2;
       console.log(x);
     </script>
-
+    
+    
+<style>
+  p{
+    
+    color: red;
+  }
+    </style>
+    
     <script>
       var containerElement = document.querySelector("#container");
-      var pElement = document.querySelectorAll("p");
+      var pElement = document.querySelector("#color");
       var buttonElement = document.querySelector('.color-changer');
       
       
@@ -32,7 +41,16 @@
         console.log(x);
          
       } 
-      buttonElement.addEventListener('click', thisWorks)
+      
+      var changeColor = function(){
+        console.log('this is firing');
+        pElement.style.color='blue';
+        
+        
+      }
+      
+      
+      buttonElement.addEventListener('click', changeColor)
     </script>
   </body>
 </html>
