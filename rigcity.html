@@ -37,13 +37,7 @@
     
     <style>
       
-         .swiper {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-           margin-right: 30px;
-      }
+       
       
     
   
@@ -145,6 +139,9 @@
     </p>
     
     <div class="swiper">
+      <div class="swiper-scrollbar swiper-scrollbar-horizontal" style="opacity: 0; transition-duration: 400ms;">
+        <div class="swiper-scrollbar-drag" style="transform: translate3d(0px, 0px, 0px); width: 119.556px;">
+        
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
@@ -161,15 +158,20 @@
         <div class="swiper-slide">Slide 3</div>
         ...
       </div>
+          </div>
       <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
+    
 
       <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
+      <!-- <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
 
       <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
+      <div class="swiper-scrollbar swiper-scrollbar-horizontal" style="opacity: 0; transition-duration: 400ms;">
+        <div class="swiper-scrollbar-drag" style="transform: translate3d(0px, 0px, 0px); width: 119.556px;">
+        </div>
+        
+      </div>
     </div>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
