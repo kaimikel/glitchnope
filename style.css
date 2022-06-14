@@ -143,7 +143,13 @@ transition: 1s ease;
    /*height: 300px;  optional, you can remove it, but in my case it was good */
 }
 
-
+.coversmall {
+  width:90%;
+   object-fit: cover;
+  overflow:hidden;
+  justify-conten:center;
+   /*height: 300px;  optional, you can remove it, but in my case it was good */
+}
 
 .overlay {
   position: absolute;
@@ -173,7 +179,7 @@ transition: 1s ease;
         width: 100%;
         height: 100%;
         justify-content: center;
-        margin-right: 30px;
+        margin-right: 10px;
     
       }
 
