@@ -60,11 +60,11 @@ p3{
 p3:hover{
   text-decoration: bold;
   color: grey;
-
 }
 
-.gridlayout {
-  width: 1366px;
+
+.layout {
+  width: 100%;
   height: 768px;
 
   display: grid;
