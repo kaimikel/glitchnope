@@ -62,3 +62,18 @@ p3:hover{
   color: grey;
 
 }
+
+.layout {
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid:
+    "RigCity . ." 1fr
+    ". . ." 1fr
+    ". . ." 1fr
+    / 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.RigCity { grid-area: RigCity; }
