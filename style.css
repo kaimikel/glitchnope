@@ -355,8 +355,28 @@ transition: 1s ease;
       }
     }
   }
+  
+}
+.gallery-thumbs img {
+-webkit-filter: brightness(70%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+
 }
 
+
+.gallery-thumbs img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.1);
+  transform: move(50%);
+transition: 1s ease;
+  -webkit-filter: brightness(100%)
+  
+}
 
 
 .RigCity { grid-area: RigCity; }
