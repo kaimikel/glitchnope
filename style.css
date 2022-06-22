@@ -306,7 +306,7 @@ v
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6); /* Black see-through */
   color: #f1f1f1;
-  width: 33%;
+  width: 25%;
   height: 66%;
   transition: 1s ease;
   opacity:30%;
