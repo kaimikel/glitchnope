@@ -374,7 +374,7 @@ transition: all 1s ease;
 -webkit-transform: scale(1.2);
 -ms-transform: scale(1.2);
 transform: scale(1.1);
-  transform: move(50%);
+  transform: translate(34px,0px);
 transition: 1s ease;
   -webkit-filter: brightness(100%)
   
