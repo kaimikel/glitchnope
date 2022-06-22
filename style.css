@@ -299,6 +299,12 @@ v
   }
 }
 
+.vignette-shadow-ex {
+  background: hotpink;
+  height: 180px;
+  box-shadow: inset 0 0 100px black;
+}
+
 .gallery-title {
     position: absolute;
   bottom: 0;
@@ -373,8 +379,10 @@ transition: all 1s ease;
 .gallery-thumbs img:hover{
 -webkit-transform: scale(1.2);
 -ms-transform: scale(1.2);
-transform: scale(1.1);
-  transform: translate(34px,0px);
+transform: translate(34px,0px);
+
+  
+  
 transition: 1s ease;
   -webkit-filter: brightness(100%)
   
