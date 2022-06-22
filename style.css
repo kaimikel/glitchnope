@@ -173,6 +173,7 @@ transition: 1s ease;
   opacity:0;
   color: b;
   font-size: 300%;
+  letter-spacing: 2px;
   padding: 10px;
   text-align: right;
   font-family: 'Kdam Thmor Pro', sans-serif
@@ -337,6 +338,7 @@ transition: 1s ease;
   font-size: 40px;
   padding: 40px;
   text-align: left;
+  letter-spacing: 4px;
   font-family: 'Kdam Thmor Pro', sans-serif;
   top: 15px;
   left: 15px;
