@@ -307,11 +307,11 @@ v
   background: rgba(0, 0, 0, 0.6); /* Black see-through */
   color: #f1f1f1;
   width: 33%;
-  height: 25%;
+  height: 66%;
   transition: 1s ease;
   opacity:30%;
   color: b;
-  font-size: 60px;
+  font-size: 40px;
   padding: 40px;
   text-align: left;
  font-family: "Epilogue", sans-serif;
