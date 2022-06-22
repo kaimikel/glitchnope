@@ -274,11 +274,12 @@ transition: 1s ease;
 }
 
 .gallery-container {
-  position: absolute;
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  
 }
 
 .gallery-main {
@@ -329,7 +330,7 @@ transition: 1s ease;
 }
 
 .gallery-thumbs {
-  
+   position: relative;
   order: -1;
   width: 300px;
   height: 400px;
