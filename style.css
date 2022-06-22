@@ -179,20 +179,7 @@ transition: 1s ease;
 }
 
 .overlay2 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6); /* Black see-through */
-  color: #f1f1f1;
-  width: 90%;
-  transition: 1s ease;
-  opacity:90%;
-  color: b;
-  font-size: 20px;
-  padding: 20px;
-  text-align: right;
-  font-family:"futura-pt",sans-serif;
+v
 }
 
 
@@ -313,14 +300,24 @@ transition: 1s ease;
 }
 
 .gallery-title {
-  position: absolute;
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6); /* Black see-through */
+  color: #f1f1f1;
+  width: 90%;
+  height: 15%;
+  transition: 1s ease;
+  opacity:30%;
+  color: b;
+  font-size: 60px;
+  padding: 40px;
+  text-align: left;
+ font-family: "Epilogue", sans-serif;
   top: 15px;
-  right: 15px;
-  font-family: "Epilogue", sans-serif;
-  font-size: 50px;
+  left: 15px;
   font-weight: 700;
-  text-align: right;
-  text-transform: uppercase;
   text-shadow: 0 0 20px rgba(#000, 0.3);
   color: #ffffff;
 
@@ -328,6 +325,8 @@ transition: 1s ease;
     animation: slide-in 0.3s ease-in both;
   }
 }
+
+
 
 .gallery-thumbs {
    position: relative;
