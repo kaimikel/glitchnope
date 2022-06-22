@@ -21,11 +21,11 @@ body {
 
 
 article#title { 
- font-size: 50px;
+ font-size:60px;
   background-color: black;
   color: white;
   line-height: 1.2;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 
 /* images and videos max out at full width */
@@ -178,9 +178,7 @@ transition: 1s ease;
   font-family: 'Kdam Thmor Pro', sans-serif
 }
 
-.overlay2 {
-v
-}
+
 
 
 
@@ -219,6 +217,25 @@ v
   padding: 6px;
 }
 
+       .maintitle {
+         font-family: "Epilogue", sans-serif;
+        width: 600px;
+        height: 20px;
+        float: left;
+        padding: 10px;
+        border: 20px;
+      }
+
+      .title {
+          font-family: "Epilogue", sans-serif;
+        width: 240px;
+        height: 20px;
+        float: right;
+        padding: 20px;
+        border: 20px;
+
+        text-align: center;
+      }
 
 
 .gallery-container {
