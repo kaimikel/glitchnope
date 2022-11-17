@@ -80,8 +80,8 @@ p4{
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
-  transition: 1s ease;
+  gap: 8px;
+  transition: 2s ease;
   justify-content: center;
   
 
@@ -107,7 +107,7 @@ p4{
 
 
 .layout img {
--webkit-filter: saturate(60%) brightness(80%);
+-webkit-filter: saturate(20%) brightness(80%);
 -webkit-transition: all 1s ease;
 -moz-transition: all 1s ease;
 -o-transition: all 1s ease;
