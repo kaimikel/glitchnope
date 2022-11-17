@@ -179,7 +179,7 @@ transition: 1s ease;
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.1); /* Black see-through */
+  background: rgba(0, 0, 0, 0.2); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
   transition: 1s ease;
