@@ -185,7 +185,7 @@ transition: 1s ease;
   transition: 1s ease;
   opacity:0.1;
   color: b;
-  font-size: 250%;
+  font-size: 220%;
   letter-spacing: 2px;
   padding: 10px;
   text-align: right;
@@ -199,7 +199,7 @@ transition: 1s ease;
 .container:hover .overlay {
   opacity: 1;
   width:100%;
-  font-size: 270%;
+  font-size: 280%;
 }
 
   .swiper {
