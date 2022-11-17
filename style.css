@@ -107,13 +107,13 @@ p4{
 
 
 .layout img {
--webkit-filter: saturate(20%) brightness(80%);
+-webkit-filter: blur(.7px) saturate(20%) brightness(80%);
 -webkit-transition: all 1s ease;
 -moz-transition: all 1s ease;
 -o-transition: all 1s ease;
 -ms-transition: all 1s ease;
 transition: all 1s ease;
-  boxShadow: 0 0 200px rgba(0,0,0,0.9) inset;
+
 
 }
 
@@ -161,6 +161,8 @@ transition: 1s ease;
    min-height: 100%;
   min-width: 100%;
   object-fit: cover;
+  box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
+
 
 
 }
@@ -168,6 +170,7 @@ transition: 1s ease;
 .cover {
    object-fit: cover;
   overflow:hidden;
+  
    /*height: 300px;  optional, you can remove it, but in my case it was good */
 }
 
