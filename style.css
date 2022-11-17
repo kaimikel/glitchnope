@@ -177,15 +177,15 @@ transition: 1s ease;
 
 .overlay {
   position: absolute;
-  bottom: 0;
+  top: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.2); /* Black see-through */
   color: #f1f1f1;
-  width: 100%;
+  width: 80%;
   transition: 1s ease;
   opacity:0.1;
   color: b;
-  font-size: 300%;
+  font-size: 250%;
   letter-spacing: 2px;
   padding: 10px;
   text-align: right;
@@ -198,6 +198,8 @@ transition: 1s ease;
 
 .container:hover .overlay {
   opacity: 1;
+  width:100%;
+  font-size: 270%;
 }
 
   .swiper {
