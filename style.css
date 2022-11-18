@@ -208,8 +208,8 @@ transition: 1s ease;
 
 .container:hover .overlay {
   opacity: 1;
-  width:120%;
-  font-size: 280%;
+  transform: scale(1.2);
+  font-size: 250%;
   z-index: 101;
   background: rgba(0, 0, 0, 0.9);
 }
