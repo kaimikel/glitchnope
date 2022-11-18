@@ -21,7 +21,7 @@ body {
 
 
 article#title { 
- font-size:60px;
+ font-size:40px;
   background-color: black;
   color: white;
   line-height: 1.2;
@@ -99,6 +99,21 @@ p4{
   
 
 }
+
+.navlayout {
+  width: 100%;
+  height: 40px;
+  object-fit:cover;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  transition: 1s ease;
+  justify-content: center;
+  
+
+}
+
 
 .image{
   object-fit:cover;
@@ -248,7 +263,7 @@ transition: 1s ease;
        .maintitle {
          font-family: "Epilogue", sans-serif;
         width: 600px;
-        height: 20px;
+        height: 16px;
         float: center;
         padding: 10px;
         border: 20px;
@@ -259,7 +274,7 @@ transition: 1s ease;
       .title {
           font-family: "Epilogue", sans-serif;
         width: 240px;
-        height: 20px;
+        height: 16px;
         float: center;
         padding: 20px;
         border: 20px;
