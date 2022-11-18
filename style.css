@@ -249,20 +249,22 @@ transition: 1s ease;
          font-family: "Epilogue", sans-serif;
         width: 600px;
         height: 20px;
-        float: left;
+        float: center;
         padding: 10px;
         border: 20px;
+        text-align:center;
+        position:relative;
       }
 
       .title {
           font-family: "Epilogue", sans-serif;
         width: 240px;
         height: 20px;
-        float: right;
+        float: center;
         padding: 20px;
         border: 20px;
-
         text-align: center;
+
       }
 
 
