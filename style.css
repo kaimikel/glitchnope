@@ -126,7 +126,9 @@ transform: scale(1.2);
 transition: 1s ease;
   position: relative;
   z-index: 100;
-  box-shadow: 10px 10px 5px rgba(0,0,0,0.9);
+  border: 4px solid black;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  
   -webkit-filter: brightness(100%)
   
 }
