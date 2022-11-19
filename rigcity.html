@@ -32,8 +32,33 @@
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
 
-    <style>
+   <style>
+      .maintitle {
+        width:100%;
+        height: 2px;
+        padding: 10px;
+        border: 10px;
+        text-align: center;
+        font-size:36px;
+      }
 
+      .title {
+        width: 100%;
+        height: 2px;
+        float: right;
+        padding: 10px;
+        border: 10px;
+        text-align: right;
+      }
+        .title2 {
+        width: 100%;
+        height: 2px;
+        float: right;
+        padding: 10px;
+        border: 10px;
+        text-align: left;
+      }
+      
       a:link {
         color: white;
         background-color: transparent;
@@ -48,7 +73,7 @@
 
       a:hover {
         color: grey;
-        background-color: transparent;
+        background-color: white;
         text-decoration: bold;
       }
 
@@ -63,49 +88,54 @@
       }
     </style>
 
-    <a href="index.html">
-      <article id="title" class="maintitle">STUDIO KAI MIKEL</article>
-    </a>
-
-    <article>
-      <a href="contact.html">
+      <body>
+    <section class="navlayout">
+      
+            <div>
+                 <a href="contact.html">
         <p3>
-          <div class="title">CONTACT</div>
+          <div class="title" >CONTACT</div>
         </p3>
       </a>
-
-      <a href="arch.html">
+              <a href="arch.html">
         <p3>
           <div class="title">ARCHITECTURE</div>
         </p3>
       </a>
-
-      <a href="vis.html">
+                </div>
+         <div>        
+    <a href="index.html">
+      <article class="maintitle"><b>STUDIO KAI MIKEL </b></article>
+    </a>
+</div>
+      
+   <div>  
+     <a href="vis.html">
         <p3>
-          <div class="title">VISUALIZATION</div>
+          <div class="title2" text-align="left">VISUALIZATION</div>
         </p3>
       </a>
 
-      <a href="product.html">
+      <a href="artifact.html">
         <p3>
-          <div class="title">ARTIFACT</div>
+          <div class="title2">ARTIFACT</div>
         </p3>
       </a>
-    </article>
-    <!-- this is the start of content -->
+     </div>
+      
+      
+      </section>
+      <p>
+      <br />
+ 
+  
+    </p>    
+     
 
-    <p>
-      <br />
-      <br />
-      <br />
-      <br />
-    </p>
   </head>
 
   <body>
-        <br />
-        <br />
-            
+
     <div class="gallery-container">
       <div class="swiper-container gallery-main">
         <div class="swiper-wrapper">
