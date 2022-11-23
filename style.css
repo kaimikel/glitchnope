@@ -298,14 +298,14 @@ transition: 1s ease;
 
 .gallery-container {
   position: absolute;
-  width: 70%;
+  width: 66%;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
 }
 
 .gallery-main {
-   width: 82%;
+   width: 83%;
    box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
 
 
