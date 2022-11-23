@@ -11,6 +11,7 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
   direction: "vertical",
+  
 });
 
 var galleryMain = new Swiper(".gallery-main", {
