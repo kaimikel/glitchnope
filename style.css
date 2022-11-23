@@ -208,7 +208,7 @@ transition: 1s ease;
 }
 
 .coversmall {
-  height: 80%;
+  height: 95%;
    object-fit: cover;
   overflow:hidden;
   justify-content:center;
@@ -414,10 +414,11 @@ transition: 1s ease;
    position: relative;
   order: 1;
   width: 380px;
-  height: 520px;
+  height: 420px;
   margin-right: 22px;
   padding-left: 2px;
   margin-top:6px;
+  object-fit:content;
 
   .swiper-slide {
     img {
