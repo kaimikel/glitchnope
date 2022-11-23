@@ -27,24 +27,38 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
     <style>
       .maintitle {
-        width: 600px;
-        height: 20px;
-        float: left;
+        width: 100%;
+        height: 2px;
         padding: 10px;
-        border: 20px;
+        border: 10px;
+        text-align: center;
+        font-size: 36px;
       }
 
       .title {
-        width: 240px;
-        height: 20px;
+        width: 100%;
+        height: 2px;
         float: right;
-        padding: 25px;
-        border: 25px;
-
-        text-align: center;
+        padding: 10px;
+        border: 10px;
+        text-align: right;
       }
+      .title2 {
+        width: 100%;
+        height: 2px;
+        float: right;
+        padding: 10px;
+        border: 10px;
+        text-align: left;
+      }
+
       a:link {
         color: white;
         background-color: transparent;
@@ -59,7 +73,7 @@
 
       a:hover {
         color: grey;
-        background-color: transparent;
+        background-color: white;
         text-decoration: bold;
       }
 
@@ -73,51 +87,49 @@
         display: block;
       }
     </style>
-    
-    <links>
 
-      
-      
-    </links>
-    
-  </head>
-  <body>
-    <a href= "index.html">
-   <article id="title" class="maintitle">
-     <b> STUDIO</b> KAI MIKEL </article>
- </a>
-    <article>
-      <a href="contact.html">
-        <p3>
-          <div class="title">CONTACT</div>
-        </p3>
-      </a>
+    <section class="navlayout">
+      <div>
+        <a href="contact.html">
+          <p3>
+            <div class="title">CONTACT</div>
+          </p3>
+        </a>
+        <a href="arch.html">
+          <p3>
+            <div class="title">ARCHITECTURE</div>
+          </p3>
+        </a>
+      </div>
+      <div>
+        <a href="index.html">
+          <article class="maintitle"><b>STUDIO KAI MIKEL </b></article>
+        </a>
+      </div>
 
-      <a href="arch.html">
-        <p3>
-          <div class="title">ARCHITECTURE</div>
-        </p3>
-      </a>
+      <div>
+        <a href="vis.html">
+          <p3>
+            <div class="title2" text-align="left">VISUALIZATION</div>
+          </p3>
+        </a>
 
-      <a href="vis.html">
-        <p3>
-          <div class="title">VISUALIZATION</div>
-        </p3>
-      </a>
-
-      <a href="product.html">
-        <p3>
-          <div class="title">PRODUCT</div>
-        </p3>
-      </a>
-    </article>
-    <!-- this is the start of content -->
-
+        <a href="artifact.html">
+          <p3>
+            <div class="title2">ARTIFACT</div>
+          </p3>
+        </a>
+      </div>
+    </section>
     <p>
       <br />
-      <br />
-      <br />
-      <br />
+    </p>
+  </head>
+
+  <body>
+   
+    <p>
+
 
       <video playsinline autoplay muted loop>
         <source
