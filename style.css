@@ -116,8 +116,8 @@ p4{
 
 .navlayout2 {
   position: absolute;
-  left:22%;
-  width: 75%;
+  left:0%;
+  width: 95%;
   height: 20px;
   object-fit:cover;
   display: grid;
@@ -307,9 +307,9 @@ transition: 1s ease;
 }
 
 .gallery-main {
-  width: 200px;
-  
-  box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
+   width: 82%;
+   box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
+
 
 
   .swiper-button {
@@ -346,10 +346,6 @@ transition: 1s ease;
   
 }
 
-.gallery-main {
-  width: 78%;
- 
-  box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
 
   .swiper-button {
     &-prev,
@@ -417,7 +413,7 @@ transition: 1s ease;
 
 .gallery-thumbs {
    position: relative;
-  order: -1;
+  order: 1;
   width: 380px;
   height: 520px;
   margin-right: 22px;
