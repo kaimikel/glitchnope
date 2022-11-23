@@ -208,7 +208,7 @@ transition: 1s ease;
 }
 
 .coversmall {
-  width:90%;
+  height: 80%;
    object-fit: cover;
   overflow:hidden;
   justify-content:center;
