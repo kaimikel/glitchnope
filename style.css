@@ -249,6 +249,7 @@ transition: 1s ease;
         justify-content: center;
         margin-right: 10px;
     
+    
       }
 
 
@@ -270,7 +271,11 @@ transition: 1s ease;
     -webkit-align-items: center;
     align-items: center;
      margin-right: 30px;
-  padding: 6px;
+    padding: 6px;
+    scrollbar: {
+        el: "swiper-scrollbar";
+            draggable: true;
+      }
 }
 
        .maintitle {
