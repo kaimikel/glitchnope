@@ -11,6 +11,11 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
   direction: "vertical",
+   scrollbar: {
+        el: '.swiper-scrollbar',
+            draggable: true,
+      },
+  
   
 });
 
@@ -19,6 +24,7 @@ var galleryMain = new Swiper(".gallery-main", {
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
   preventInteractionOnTransition: true,
+  
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
