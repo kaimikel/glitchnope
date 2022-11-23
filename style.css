@@ -438,7 +438,7 @@ transition: 1s ease;
   
 }
 .gallery-thumbs img {
--webkit-filter: brightness(70%);
+-webkit-filter:  blur(.7px) saturate(20%) brightness(80%);;
 -webkit-transition: all 1s ease;
 -moz-transition: all 1s ease;
 -o-transition: all 1s ease;
@@ -449,8 +449,7 @@ transition: all 1s ease;
 
 
 .gallery-thumbs img:hover{
--webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
+
 transform: translate(34px,0px);
 
   
