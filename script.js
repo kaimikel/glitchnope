@@ -45,3 +45,6 @@ galleryMain.on("slideChangeTransitionStart", function () {
 galleryThumbs.on("transitionStart", function () {
   galleryMain.slideTo(galleryThumbs.activeIndex);
 });
+
+
+
