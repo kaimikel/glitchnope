@@ -265,9 +265,12 @@ p4 {
 }
 
 
+.swiper-pagination{
+  height:80%;
+  
+}
 
-.swiper-pagination {
-    &-bullet {
+.swiper-pagination-bullet {
         background-color: transparent;
         border: 2px solid #fff;
         border-radius: 50%;
@@ -276,10 +279,15 @@ p4 {
         opacity: 1;
     }
 
-    &-bullet-active {
-        background-color: #fff;
+.swiper-pagination-bullet -active{
+        background-color: #ffffff !important;
+        border: 2px solid #ffffff !important;
+        border-radius: 2%;
+        width: 18px;
+        height: 18px;
+        opacity: 1;
     }
-}
+
 
 
 
@@ -308,7 +316,7 @@ p4 {
 
 .gallery-container {
   position: absolute;
-  width: 95%;
+  width: 98%;
   display: flex;
   justify-content: space-between;
   overflow: hidden;

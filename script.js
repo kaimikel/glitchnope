@@ -19,6 +19,7 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
   pagination: {
       el: '.swiper-pagination', 
     clickable: true,
+    modifierclass: 'swiper-pagination-bullet',
     },
   
 });
