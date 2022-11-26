@@ -229,7 +229,6 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img
-              class="coversmall"
               src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Vertical_Rehm_Johnson_KaiMikel_RoofPan_001_Moment.jpg?v=1655870260961"
             />
           </div>
@@ -268,66 +267,32 @@
           </div>
         </div>
       </div>
+          </div>
 
-      <!-- <div class="swiper">
-   
-      <div class="swiper-wrapper">
-        <!-- Slides 
-        <div class="swiper-slide">
-          <div class = "containter">
-            
-         
-          <video class="coversmall" playsinline autoplay muted loop>
-            <source
-              src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Vertical_Rehm_Johnson_KaiMikel_RoofPan_001.mp4?v=1653422247066"
-            />
-          
-          </video>
-          
-          
-            
-              <div class="overlay2">
-                    <p style = "font-family:Kdam Thmor Pro,sans-serif;font-size:32px;" >
-                      <b>  Rig City 2.0 </b> 
-                </p>
-                <i> Cajon Pass, California </i>
-                  <br />
-                    A civic campus that explores the relation of architecture to landscape in
-                    a harsh Southern California desert climate.
-       
-                 </div>
-    </div> 
-        
-          
-        </div>
-        <div class="swiper-slide">
-          <img
-            class="coversmall"
-            src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Image21.png?v=1655242152806"
-          />
-        </div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
-      </div>
-      <!-- If we need pagination -->
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-      <!-- If we need navigation buttons -->
-      <!-- <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <div
-        class="swiper-scrollbar swiper-scrollbar-horizontal"
-        style="opacity: 0; transition-duration: 400ms"
-      >
-        <div
-          class="swiper-scrollbar-drag"
-          style="transform: translate3d(0px, 0px, 0px); width: 119.556px"
-        ></div>
-        <div class="swiper-scrollbar"></div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<!-- Initialize Swiper -->
+	<script>
+		var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+	</script>
+      
+      
   </body>
 </html>
