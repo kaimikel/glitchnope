@@ -266,20 +266,21 @@ p4 {
 
 
 
-
-.swiper-pagination-bullets{
-        width: 20px;
-        height: 20px;
-        top:20%;
-        color: #000;
+.swiper-pagination {
+    &-bullet {
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
         opacity: 1;
-        background: rgba(0, 0, 0, 0.2);
-      }
+    }
 
-      .swiper-pagination-bullet-active {
-        color: #fff;
-        background: #fff;
-      }
+    &-bullet-active {
+        background-color: #fff;
+    }
+}
+
 
 
 
@@ -307,7 +308,7 @@ p4 {
 
 .gallery-container {
   position: absolute;
-  width: 66%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -318,13 +319,7 @@ p4 {
   box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
 }
 
-.gallery-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-}
+
 
 .vignette-shadow-ex {
   background: hotpink;
@@ -350,7 +345,7 @@ p4 {
 
   font-family: "Kdam Thmor Pro", sans-serif;
 
-  text-shadow: 0 0 20px rgba(#000, 0.3);
+  text-shadow: 0 0 20px rgba(#000000, 0.3);
   color: #ffffff;
 }
 
@@ -436,26 +431,8 @@ p4 {
   }
 }
 
-@bg: #2d2d37; // Dark blue
-@primary: #fd6b21; // Orange
 
-body {
-  background: @bg;
-}
-a {
-  color: white;
-  text-decoration: none;
-}
 
-.arrow {
-  text-align: center;
-  margin: 8% 0;
-}
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
 
 @keyframes bounce {
   0%,
