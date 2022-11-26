@@ -267,28 +267,32 @@ p4 {
 
 
 
-.swiper-pagination-bullet {
+.swiper-pagination {
+        position: aboslute;
+        top: 60% !important;
+        height: 45%;
+        display: grid;
+        table-layout: fixed;
+        right:5px !important;
+        width: 10px;
+        justify-content: center;
+      }
+      .swiper-pagination-bullet {
         background-color: transparent;
-        border: 2px solid #fff;
+        border: 1px solid #fff;
         border-radius: 50%;
-        width: 12px;
-        height: 12px;
-        opacity: 1;
-    }
+        width: 8px;
+        height: 8px;
+        opacity: .6;
+      }
 
-.swiper-pagination-bullet -active{
+      .swiper-pagination-bullet-active {
         background-color: #ffffff !important;
         border: 2px solid #ffffff !important;
-        border-radius: 2%;
-        width: 18px;
-        height: 18px;
-        opacity: 1;
-    }
-
-
-
-
-
+        width: 12px !important;
+        height: 12px !important;
+        opacity: 1 !important;
+      }
 
 .maintitle {
   font-family: "Epilogue", sans-serif;

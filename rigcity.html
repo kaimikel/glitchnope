@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -33,6 +34,8 @@
     />
 
     <style>
+      
+
       .maintitle {
         width: 100%;
         height: 2px;
@@ -141,21 +144,18 @@
                       position: relative;
                       left: 10%;
                       top: 5%;
-             
                     "
                   >
-      
                     <b> RIG_CITY</b>
-                    
+
                     <p3 style="futura-pt,sans-serif; font-size: 10pt;  ">
-                       <br />
+                      <br />
                       CAJON PASS, CALIFORNIA : MSAT '22
                     </p3>
                   </p3>
                 </div>
                 <div>
                   <p3 style="futura-pt,sans-serif; font-size: 13pt;   ">
-        
                     A civic campus that explores the relation of architecture to
                     landscape in a harsh Southern California desert
                     climate.While evoking the natural ecology of the existing
@@ -166,8 +166,6 @@
 
                 <div>
                   <p3 style="futura-pt,sans-serif; font-size: 13pt;  ">
-           
-
                     Additionally, the project utilizes layers of structures to
                     provide a balance of solar shading and exposure to natural
                     daylighting to underground spaces .
@@ -182,6 +180,7 @@
               />
             </video>
           </div>
+
           <div class="swiper-slide">
             <video playsinline autoplay muted loop>
               <source
@@ -189,11 +188,13 @@
               />
             </video>
           </div>
+
           <div class="swiper-slide">
             <img
               src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Vertical_Rehm_Johnson_KaiMikel_Perspective_001.png?v=1653421715704"
             />
           </div>
+
           <div class="swiper-slide">
             <video playsinline autoplay muted loop>
               <source
@@ -201,12 +202,14 @@
               />
             </video>
           </div>
+
           <div class="swiper-slide">
             <img
               src="https://picsum.photos/seed/slide4/600/300"
               alt="Slide 04"
             />
           </div>
+
           <div class="swiper-slide">
             <img
               src="https://picsum.photos/seed/slide5/600/300"
@@ -215,6 +218,7 @@
           </div>
         </div>
       </div>
+
       <div class="swiper-container gallery-thumbs">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -258,91 +262,14 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="swiper">
-   
-      <div class="swiper-wrapper">
-        <!-- Slides 
-        <div class="swiper-slide">
-          <div class = "containter">
-            
-         
-          <video class="coversmall" playsinline autoplay muted loop>
-            <source
-              src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Vertical_Rehm_Johnson_KaiMikel_RoofPan_001.mp4?v=1653422247066"
-            />
-          
-          </video>
-          
-          
-            
-              <div class="overlay2">
-                    <p style = "font-family:Kdam Thmor Pro,sans-serif;font-size:32px;" >
-                      <b>  Rig City 2.0 </b> 
-                </p>
-                <i> Cajon Pass, California </i>
-                  <br />
-                    A civic campus that explores the relation of architecture to landscape in
-                    a harsh Southern California desert climate.
-       
-                 </div>
-    </div> 
-        
-          
-        </div>
-        <div class="swiper-slide">
-          <img
-            class="coversmall"
-            src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Image21.png?v=1655242152806"
-          />
-        </div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
-      </div>
-      <!-- If we need pagination -->
-
-      <!-- If we need navigation buttons -->
-      <!-- <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <div
-        class="swiper-scrollbar swiper-scrollbar-horizontal"
-        style="opacity: 0; transition-duration: 400ms"
-      >
-        <div
-          class="swiper-scrollbar-drag"
-          style="transform: translate3d(0px, 0px, 0px); width: 119.556px"
-        ></div>
-          <div class="swiper-scrollbar"></div>
-      </div>
     </div>
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- pagination dots -->
+    <div class="swiper-pagination"></div>
+    <!-- !pagination dots -->
 
-    <script>
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        direction: "horizontal",
-        loop: true,
+    <!-- Swiper JS -->
 
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
-      });
-    </script>
-    
+    <!-- Initialize Swiper -->
   </body>
 </html>
