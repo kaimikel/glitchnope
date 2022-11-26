@@ -265,11 +265,7 @@ p4 {
 }
 
 
-.swiper-pagination{
-  height:80%;
-  display: table;
-  table-layout: fixed;  
-}
+
 
 .swiper-pagination-bullet {
         background-color: transparent;
@@ -321,6 +317,7 @@ p4 {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  right:20px;
 }
 
 .gallery-main {
@@ -374,7 +371,7 @@ p4 {
 }
 
 .gallery-thumbs img {
-  width: 80%;
+  width: 95%;
   -webkit-filter: blur(0.7px) saturate(20%) brightness(80%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
