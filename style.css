@@ -6,31 +6,31 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 /* adjust typography defaults */
 body {
   margin: 1rem;
-  font-family: 'Mukta', sans-serif;
-  line-height: .85;
-  background-color : black;
+  font-family: "Mukta", sans-serif;
+  line-height: 0.85;
+  background-color: black;
   color: white;
 }
 
-
-article#title { 
- font-size:40px;
+article#title {
+  font-size: 40px;
   background-color: black;
   color: white;
   line-height: 1.2;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
 
 /* images and videos max out at full width */
 img,
-
 video {
   height: auto;
   max-width: 100%;
@@ -45,78 +45,70 @@ video2 {
   object-fit: cover;
 }
 
-
-links{
-  display:flex;
+links {
+  display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-p3{
+p3 {
   font-size: 16px;
-  font-family:"futura-pt",sans-serif;
+  font-family: "futura-pt", sans-serif;
   line-height: 1.1;
 }
 
-p3:hover{
+p3:hover {
   text-decoration: bold;
   color: grey;
   background-color: white;
 }
 
-p4{
-    font-size: 16px;
-  font-family:"futura-pt",sans-serif;
+p4 {
+  font-size: 16px;
+  font-family: "futura-pt", sans-serif;
 }
 
-.right-justify{
-   text-align: end;
-  
+.right-justify {
+  text-align: end;
 }
 
 .layout {
   width: 100%;
   height: 33%;
-  object-fit:cover;
+  object-fit: cover;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   transition: 2s ease;
   justify-content: center;
-  
-
 }
 .layout2 {
   width: 100%;
   height: 200px;
-  object-fit:cover;
+  object-fit: cover;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
   transition: 1s ease;
   justify-content: center;
-  
-
 }
 
 .navlayout {
   width: 100%;
   height: 30px;
-  object-fit:cover;
+  object-fit: cover;
   display: grid;
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
   transition: 1s ease;
   justify-content: center;
-  
-
 }
 
 .navlayout2 {
-  left:5%;
+  left: 5%;
   width: 95%;
   display: grid;
   grid-template-rows: repeat(1, 1fr);
@@ -124,50 +116,40 @@ p4{
   gap: 2px;
   transition: 1s ease;
   justify-content: center;
-  
-
 }
 
-.image{
-  object-fit:cover;
-
+.image {
+  object-fit: cover;
 }
-
 
 .layout img {
--webkit-filter: blur(.7px) saturate(20%) brightness(80%);
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;
-
-
+  -webkit-filter: blur(0.7px) saturate(20%) brightness(80%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-
-.layout img:hover{
--webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
+.layout img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
   transform: move(50%);
-transition: 1s ease;
+  transition: 1s ease;
   position: relative;
   z-index: 100;
-  border: 4px solid rgba(0,0,0,0.9);
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
-  
-  -webkit-filter: brightness(100%)
-  
+  border: 4px solid rgba(0, 0, 0, 0.9);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+  -webkit-filter: brightness(100%);
 }
 
-
-
-.layout video:hover{
--webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
-transition: 1s ease;
+.layout video:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
 }
 
 .container {
@@ -187,30 +169,26 @@ transition: 1s ease;
   justify-content: center;
 }
 
-.container img{
-
-   min-height: 100%;
+.container img {
+  min-height: 100%;
   min-width: 100%;
   object-fit: cover;
-  box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
-
-
-
+  box-shadow: 0 0 500px rgba(0, 0, 0, 0.9) inset;
 }
 
 .cover {
-   object-fit: cover;
-  overflow:hidden;
-  
-   /*height: 300px;  optional, you can remove it, but in my case it was good */
+  object-fit: cover;
+  overflow: hidden;
+
+  /*height: 300px;  optional, you can remove it, but in my case it was good */
 }
 
 .coversmall {
   height: 95%;
-   object-fit: cover;
-  overflow:hidden;
-  justify-content:center;
-   /*height: 300px;  optional, you can remove it, but in my case it was good */
+  object-fit: cover;
+  overflow: hidden;
+  justify-content: center;
+  /*height: 300px;  optional, you can remove it, but in my case it was good */
 }
 
 .overlay {
@@ -221,18 +199,14 @@ transition: 1s ease;
   color: #f1f1f1;
   width: 100%;
   transition: 1s ease;
-  opacity:0.1;
+  opacity: 0.1;
   color: b;
   font-size: 220%;
   letter-spacing: 2px;
   padding: 4px;
   text-align: right;
-  font-family: 'Kdam Thmor Pro', sans-serif
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
-
-
-
-
 
 .container:hover .overlay {
   opacity: 1;
@@ -242,61 +216,75 @@ transition: 1s ease;
   background: rgba(0, 0, 0, 0.9);
 }
 
-  .swiper {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        margin-right: 10px;
-    
-    
-      }
-
-
-.swiper-slide {
-      width: 80%;
-    text-align: center;
-    font-size: 18px;
-    background: (0,0,0,0);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-     margin-right: 30px;
-    padding: 6px;
-    scrollbar: draggable;
+.swiper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-right: 10px;
 }
 
-       .maintitle {
-         font-family: "Epilogue", sans-serif;
-        width: 600px;
-        height: 16px;
-        float: center;
-        padding: 10px;
-        border: 20px;
-        text-align:center;
-        position:relative;
-      }
+.swiper-slide {
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 30px;
+  padding: 6px;
+}
 
-      .title {
-          font-family: "Epilogue", sans-serif;
-        width: 240px;
-        height: 16px;
-        float: center;
-        padding: 20px;
-        border: 20px;
-        text-align: center;
 
-      }
 
+
+.swiper-button {
+  &-prev,
+  &-next {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: auto;
+    left: auto;
+    height: 75px;
+    width: 40px;
+    color: #e9e9e9;
+    background: #1e1e1e;
+
+    &::after {
+      font-size: 12px;
+    }
+  }
+
+  &-prev {
+    right: 40px;
+    border-right: 1px solid #e9e9e9;
+  }
+}
+
+
+.maintitle {
+  font-family: "Epilogue", sans-serif;
+  width: 600px;
+  height: 16px;
+  float: center;
+  padding: 10px;
+  border: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-family: "Epilogue", sans-serif;
+  width: 240px;
+  height: 16px;
+  float: center;
+  padding: 20px;
+  border: 20px;
+  text-align: center;
+}
 
 .gallery-container {
   position: absolute;
@@ -307,34 +295,8 @@ transition: 1s ease;
 }
 
 .gallery-main {
-   width: 83%;
-   box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
-
-
-
-  .swiper-button {
-    &-prev,
-    &-next {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      top: auto;
-      left: auto;
-      height: 75px;
-      width: 40px;
-      color: #e9e9e9;
-      background: #1e1e1e;
-
-      &::after {
-        font-size: 12px;
-      }
-    }
-
-    &-prev {
-      right: 40px;
-      border-right: 1px solid #e9e9e9;
-    }
-  }
+  width: 83%;
+  box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
 }
 
 .gallery-container {
@@ -343,33 +305,7 @@ transition: 1s ease;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  
 }
-
-
-  .swiper-button {
-    &-prev,
-    &-next {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      top: auto;
-      left: auto;
-      height: 75px;
-      width: 40px;
-      color: #e9e9e9;
-      background: #1e1e1e;
-
-      &::after {
-        font-size: 12px;
-      }
-    }
-
-    &-prev {
-      right: 40px;
-      border-right: 1px solid #e9e9e9;
-    }
-  }
 
 
 .vignette-shadow-ex {
@@ -379,22 +315,22 @@ transition: 1s ease;
 }
 
 .gallery-title {
-    position: absolute;
+  position: absolute;
   top: 0;
- 
+
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
   height: 10%;
   transition: 1s ease;
-  opacity:20%;
+  opacity: 20%;
   color: b;
   font-size: 40px;
   padding: 40px;
   text-align: left;
 
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
 
   text-shadow: 0 0 20px rgba(#000, 0.3);
   color: #ffffff;
@@ -404,69 +340,42 @@ transition: 1s ease;
   }
 }
 
-.gallery-container:hover .gallery-title{
+.gallery-container:hover .gallery-title {
   opacity: 100%;
 }
 
-
-
 .gallery-thumbs {
-   position: relative;
+  position: relative;
   order: 1;
   width: 380px;
   height: 420px;
   margin-right: 22px;
   padding-left: 2px;
-  margin-top:6px;
-  object-fit:content;
-
-  .swiper-slide {
-    img {
-      transition: 0.3s;
-    }
-
-    &-active {
-      opacity: 0.9;
-    }
-
-    &-thumb-active {
-      opacity: 1;
-
-      img {
-        margin-left: -15px;
-      }
-    }
-  }
-  
+  margin-top: 6px;
+  object-fit: content;
 }
+
+
 .gallery-thumbs img {
--webkit-filter:  blur(.7px) saturate(20%) brightness(80%);;
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;
-
+  -webkit-filter: blur(0.7px) saturate(20%) brightness(80%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
+.gallery-thumbs img:hover {
+  transform: translate(34px, 0px);
 
-.gallery-thumbs img:hover{
-
-transform: translate(34px,0px);
-
-  
-  
-transition: 1s ease;
-  -webkit-filter: brightness(100%)
-  
+  transition: 1s ease;
+  -webkit-filter: brightness(100%);
 }
-
-
 
 .arrow-container {
   display: block;
   width: 100px;
-  height: 100px;  
+  height: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -480,18 +389,18 @@ transition: 1s ease;
       }
       &:after {
         @include arrow-transitions(30deg);
-      }      
+      }
     }
   }
 }
 .arrow {
   position: absolute;
   left: 50%;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   &:before,
   &:after {
-    transition: all .4s ease;
-    content: '';
+    transition: all 0.4s ease;
+    content: "";
     display: block;
     position: absolute;
     transform-origin: bottom right;
@@ -516,8 +425,13 @@ transition: 1s ease;
 @bg: #2d2d37; // Dark blue
 @primary: #fd6b21; // Orange
 
-body { background: @bg;}
-a { color: white; text-decoration: none; }
+body {
+  background: @bg;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
 
 .arrow {
   text-align: center;
@@ -530,7 +444,11 @@ a { color: white; text-decoration: none; }
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -541,51 +459,53 @@ a { color: white; text-decoration: none; }
   }
 }
 
-
-.colorhover img{
-filter: grayscale(100%);
--webkit-filter: grayscale(100%);
--webkit-transition: all 1s ease;
+.colorhover img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
 }
 
-.colorhover img:hover{
-filter: grayscale(0%);
-filter: gray;
--webkit-filter: grayscale(0%);
-filter: none;
-transition: 1s ease;
+.colorhover img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
 }
-
 
 .popup .popuptext {
-visibility: hidden;
-background-color: #555;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-padding: 8px 0;
-z-index: 1;
-bottom: 125%;
-left: 50%;
-margin-left: -80px;
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
 }
 .popup .show {
-visibility: visible;
--webkit-animation: fadeIn 1s;
-animation: fadeIn 1s;
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 @-webkit-keyframes fadeIn {
-from {opacity: 0;} 
-to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @keyframes fadeIn {
-from {opacity: 0;}
-to {opacity:1 ;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
-
-
-
 
 .collapsible {
   background-color: #777;
@@ -599,7 +519,8 @@ to {opacity:1 ;}
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: #555;
 }
 
