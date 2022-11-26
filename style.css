@@ -279,9 +279,9 @@ p4 {
         height: 98%;
         display: grid;
         table-layout: fixed;
-        right:5px !important;
+        right:10px !important;
         width: 10px!important;
-        justify-content: center;
+        justify-content: right;
       bottom: 0px !important;
       }
       .swiper-pagination-bullet {
@@ -290,7 +290,7 @@ p4 {
         border-radius: 0% !important;
         width: 8px;
         height: 100% !important;
-        opacity: .4;
+        opacity: .6;
       }
 
       .swiper-pagination-bullet-active {
@@ -325,7 +325,8 @@ p4 {
 .gallery-container {
   position: absolute;
   width: 98%;
-  height: 80vh;
+  height: 85vh;
+  left: 18px;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -346,6 +347,7 @@ p4 {
 }
 
 .gallery-title {
+
   position: absolute;
   top: 0;
 
