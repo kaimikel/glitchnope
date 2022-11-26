@@ -130,8 +130,6 @@
     <div class="gallery-container">
       <div class="swiper-container gallery-main">
         <div class="swiper-wrapper">
-          
-          
           <div class="swiper-slide">
             <div class="gallery-title">
               <section class="navlayout2">
@@ -179,8 +177,7 @@
               />
             </video>
           </div>
-          
-  
+
           <div class="swiper-slide">
             <video playsinline autoplay muted loop>
               <source
@@ -188,13 +185,13 @@
               />
             </video>
           </div>
-          
+
           <div class="swiper-slide">
             <img
               src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Vertical_Rehm_Johnson_KaiMikel_Perspective_001.png?v=1653421715704"
             />
           </div>
-          
+
           <div class="swiper-slide">
             <video playsinline autoplay muted loop>
               <source
@@ -202,33 +199,28 @@
               />
             </video>
           </div>
-          
+
           <div class="swiper-slide">
             <img
               src="https://picsum.photos/seed/slide4/600/300"
               alt="Slide 04"
             />
           </div>
-          
+
           <div class="swiper-slide">
             <img
               src="https://picsum.photos/seed/slide5/600/300"
               alt="Slide 05"
             />
           </div>
-          
         </div>
       </div>
-      
-      
-      
-      
-      
-      
+
       <div class="swiper-container gallery-thumbs">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img
+              class="coversmall"
               src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Vertical_Rehm_Johnson_KaiMikel_RoofPan_001_Moment.jpg?v=1655870260961"
             />
           </div>
@@ -267,32 +259,16 @@
           </div>
         </div>
       </div>
-          </div>
+    </div>
+    
+    
+    <!-- pagination dots -->
+    <div class="swiper-pagination"></div>
+    <!-- !pagination dots -->
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-	<!-- Swiper JS -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-	<!-- Initialize Swiper -->
-	<script>
-		var galleryThumbs = new Swiper('.gallery-thumbs', {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesVisibility: true,
-      watchSlidesProgress: true,
-    });
-    var galleryTop = new Swiper('.gallery-top', {
-      spaceBetween: 10,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      thumbs: {
-        swiper: galleryThumbs
-      }
-    });
-	</script>
-      
-      
+    <!-- Initialize Swiper -->
   </body>
 </html>

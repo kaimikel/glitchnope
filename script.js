@@ -15,7 +15,10 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
         el: '.swiper-scrollbar',
             draggable: true,
       },
-  
+  pagination: {
+        el: '.swiper-pagination',
+    top: '20%',
+    },
   
 });
 
