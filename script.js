@@ -41,10 +41,3 @@ var galleryMain = new Swiper(".gallery-main", {
   },
 });
 
-galleryMain.on("slideChangeTransitionStart", function () {
-  galleryThumbs.slideTo(galleryMain.activeIndex);
-});
-
-galleryThumbs.on("transitionStart", function () {
-  galleryMain.slideTo(galleryThumbs.activeIndex);
-});
