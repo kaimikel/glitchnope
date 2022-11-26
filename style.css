@@ -267,7 +267,8 @@ p4 {
 
 .swiper-pagination{
   height:80%;
-  
+  display: table;
+  table-layout: fixed;  
 }
 
 .swiper-pagination-bullet {

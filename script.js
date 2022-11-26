@@ -3,7 +3,6 @@
 
 console.log("Hello, world!");
 
-
 var galleryThumbs = new Swiper(".gallery-thumbs", {
   centeredSlides: true,
   centeredSlidesBounds: true,
@@ -12,16 +11,15 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
   direction: "vertical",
-   scrollbar: {
-        el: '.swiper-scrollbar',
-            draggable: true,
-      },
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    draggable: true,
+  },
   pagination: {
-      el: '.swiper-pagination', 
+    el: ".swiper-pagination",
     clickable: true,
-    modifierclass: 'swiper-pagination-bullet',
-    },
-  
+    bulletClass: `swiper-pagination-bullet`,
+  },
 });
 
 var galleryMain = new Swiper(".gallery-main", {
@@ -29,7 +27,7 @@ var galleryMain = new Swiper(".gallery-main", {
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
   preventInteractionOnTransition: true,
-  
+
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -50,6 +48,3 @@ galleryMain.on("slideChangeTransitionStart", function () {
 galleryThumbs.on("transitionStart", function () {
   galleryMain.slideTo(galleryThumbs.activeIndex);
 });
-
-
-
