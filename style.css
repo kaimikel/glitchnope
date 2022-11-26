@@ -268,15 +268,11 @@ p4 {
 
 
 .swiper-pagination {
-        position: absolute !important;
+        position: relative !important;
   vertical-align: top !important;
         top: 50% !important;
         height: 98%;
-        display: grid;
-        table-layout: fixed;
-        right:5px !important;
-        width: 10px;
-        justify-content: center;
+
       }
       .swiper-pagination-bullet {
         background-color: transparent;
@@ -369,7 +365,7 @@ p4 {
   position: relative;
   order: 1;
  width: 100vh;
-  height: 60vh;
+  height: 50vh;
   right: 10px;
   padding-left: 10px;
   margin-top: 6px;

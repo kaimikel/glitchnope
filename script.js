@@ -15,11 +15,7 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
     el: ".swiper-scrollbar",
     draggable: true,
   },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    bulletClass: `swiper-pagination-bullet`,
-  },
+ 
 });
 
 var galleryMain = new Swiper(".gallery-main", {
@@ -38,6 +34,11 @@ var galleryMain = new Swiper(".gallery-main", {
   },
   thumbs: {
     swiper: galleryThumbs,
+  },
+   pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    bulletClass: `swiper-pagination-bullet`,
   },
 });
 
