@@ -3,6 +3,7 @@
 
 console.log("Hello, world!");
 
+
 var galleryThumbs = new Swiper(".gallery-thumbs", {
   centeredSlides: true,
   centeredSlidesBounds: true,
@@ -16,8 +17,11 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
             draggable: true,
       },
   pagination: {
-        el: '.swiper-pagination',
-    top: '20%',
+      el: '.swiper-pagination', 
+    clickable: true,
+    
+    bulletClass: `swiper-pagination-bullets`
+
     },
   
 });

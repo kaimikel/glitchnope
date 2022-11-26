@@ -264,7 +264,10 @@ p4 {
   }
 }
 
-vertical.swiper-pagination-bullets{
+
+
+
+.swiper-pagination-bullets{
         width: 20px;
         height: 20px;
         top:20%;
@@ -275,7 +278,7 @@ vertical.swiper-pagination-bullets{
 
       .swiper-pagination-bullet-active {
         color: #fff;
-        background: #007aff;
+        background: #fff;
       }
 
 
