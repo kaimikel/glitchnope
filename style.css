@@ -228,7 +228,7 @@ p4 {
   width: 80%;
   text-align: center;
   font-size: 18px;
-  display: flex;
+  object-fit: cover;
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
@@ -236,6 +236,11 @@ p4 {
   padding: 6px;
 }
 
+.swiper-slide video{
+  height: 100%;
+  width: 100%;
+  
+}
 .swiper-slide-active & {
   animation: slide-in 0.3s ease-in both;
 }
@@ -268,7 +273,7 @@ p4 {
 
 
 .swiper-pagination {
-        position: relative !important;
+        position: absolute !important;
         vertical-align: top !important;
         top: 2% !important;
         height: 98%;
@@ -320,6 +325,7 @@ p4 {
 .gallery-container {
   position: absolute;
   width: 98%;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
