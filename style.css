@@ -326,7 +326,7 @@ p4 {
 }
 
 .gallery-main {
-  width: 83%;
+  width: 80%;
   box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
 }
 
@@ -368,10 +368,10 @@ p4 {
 .gallery-thumbs {
   position: relative;
   order: 1;
-  width: 380px;
-  height: 420px;
+ width: 100vh;
+  height: 60vh;
   right: 10px;
-  padding-left: 2px;
+  padding-left: 10px;
   margin-top: 6px;
   object-fit: content;
 }
