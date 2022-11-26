@@ -272,10 +272,7 @@ transition: 1s ease;
     align-items: center;
      margin-right: 30px;
     padding: 6px;
-    scrollbar: {
-        el: "swiper-scrollbar";
-            draggable: true;
-      }
+    scrollbar: draggable;
 }
 
        .maintitle {
@@ -373,7 +370,7 @@ transition: 1s ease;
       border-right: 1px solid #e9e9e9;
     }
   }
-}
+
 
 .vignette-shadow-ex {
   background: hotpink;
@@ -587,7 +584,6 @@ to {opacity:1 ;}
 }
 
 
-.RigCity { grid-area: RigCity; }
 
 
 
