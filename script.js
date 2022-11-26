@@ -36,7 +36,8 @@ var galleryMain = new Swiper(".gallery-main", {
     swiper: galleryThumbs,
   },
    pagination: {
-    el: ".swiper-pagination",
+    direction: "vertical",
+     el: ".swiper-pagination",
     clickable: true,
     bulletClass: `swiper-pagination-bullet`,
   },

@@ -268,11 +268,16 @@ p4 {
 
 
 .swiper-pagination {
-        position: relative !important;
-  vertical-align: top !important;
-        top: 50% !important;
+        position: absolute !important;
+        vertical-align: top !important;
+        top: 2% !important;
         height: 98%;
-
+        display: grid;
+        table-layout: fixed;
+        right:5px !important;
+        width: 10px!important;
+        justify-content: center;
+  bottom: 0px !important;
       }
       .swiper-pagination-bullet {
         background-color: transparent;
@@ -322,7 +327,7 @@ p4 {
 }
 
 .gallery-main {
-  width: 80%;
+  width: 83%;
   box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
 }
 
@@ -365,7 +370,7 @@ p4 {
   position: relative;
   order: 1;
  width: 100vh;
-  height: 50vh;
+  height: 60vh;
   right: 10px;
   padding-left: 10px;
   margin-top: 6px;
