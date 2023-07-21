@@ -203,6 +203,12 @@ p4 {
   /*height: 300px;  optional, you can remove it, but in my case it was good */
 }
 
+.coverfit{
+    object-fit: contain;
+  overflow: hidden;
+
+}
+
 .overlay {
   position: absolute;
   top: 0;
