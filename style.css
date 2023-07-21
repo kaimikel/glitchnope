@@ -187,7 +187,7 @@ p4 {
   height: 95%;
   object-fit: cover;
   overflow: hidden;
-  justify-content: center;
+  justify-content: RIGHT;
   /*height: 300px;  optional, you can remove it, but in my case it was good */
 }
 
@@ -231,7 +231,7 @@ p4 {
   object-fit: cover;
   -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
+  -webkit-box-align: center ;
   align-items: center;
   padding: 6px;
 }
