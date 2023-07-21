@@ -39,6 +39,16 @@ video {
   object-fit: cover;
 }
 
+img2{
+  height: 100%;
+  width: 100%;
+  position: center center;
+  object-fit: contain;
+}
+
+
+
+
 video2 {
   height: auto;
   max-width: 50%;
@@ -242,10 +252,7 @@ p4 {
   width: 10px;
 }
 
-.swiper-slide img{
-  object-fit: contain;
-  
-}
+
 
 .swiper-slide video{
   height: 100%;
