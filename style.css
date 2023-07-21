@@ -327,7 +327,7 @@ p4 {
 }
 
 .gallery-container {
-  position: relative;
+  position: absolute;
   width: 98%;
   height: 85vh;
   left: 18px;
