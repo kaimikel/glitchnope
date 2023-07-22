@@ -130,6 +130,17 @@ p4 {
   justify-content: center;
 }
 
+.navlayout3 {
+  left: 5%;
+  width: 95%;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2px;
+  transition: 1s ease;
+  justify-content: center;
+}
+
 .image {
   object-fit: cover;
 }
@@ -371,10 +382,8 @@ p4 {
 }
 
 .gallery-title {
-
   position: absolute;
   top: 0;
-
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6); /* Black see-through */
   color: #f1f1f1;
@@ -386,15 +395,32 @@ p4 {
   font-size: 40px;
   padding: 40px;
   text-align: left;
-
   font-family: "Kdam Thmor Pro", sans-serif;
+  text-shadow: 0 0 20px rgba(#000000, 0.3);
+  color: #ffffff;
+}
 
+.gallery-title2 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6); /* Black see-through */
+  color: #f1f1f1;
+  width: 50%;
+  height: 20%;
+  transition: 1s ease;
+  opacity: 20%;
+  color: b;
+  font-size: 40px;
+  padding: 40px;
+  text-align: left;
+  font-family: "Kdam Thmor Pro", sans-serif;
   text-shadow: 0 0 20px rgba(#000000, 0.3);
   color: #ffffff;
 }
 
 
-.gallery-container:hover .gallery-title {
+.gallery-container:hover .gallery-title .gallery-title2{
   opacity: 100%;
 }
 
