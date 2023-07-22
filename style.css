@@ -388,7 +388,7 @@ p4 {
   background: rgba(0, 0, 0, 0.6); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
-  height: 15%;
+  height: 14vh;
   transition: 1s ease;
   opacity: 20%;
   color: b;
@@ -403,11 +403,12 @@ p4 {
 .gallery-title2 {
   position: absolute;
   bottom: 0;
+  right: 0 ;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6); /* Black see-through */
   color: #f1f1f1;
   width: 50%;
-  height: 20%;
+  height: 12vh;
   transition: 1s ease;
   opacity: 20%;
   color: b;
