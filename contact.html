@@ -20,6 +20,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans"
       rel="stylesheet"
     />
+    
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -123,49 +127,22 @@
       <br />
     </p>
   </head>
-
+  
   <body>
+      <link rel="stylesheet" href="formcarry-form.css" />
+    <div class="formcarry-container">
+      <form action="form-process.php" method="POST" class="formcarry-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="fullName" required />
 
-<link href="contact-form.css" rel="stylesheet">
+        <label for="email">Your Email Address</label>
+        <input type="email" id="email" name="email" required />
 
-<div class="fcf-body">
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-    <div id="fcf-form">
-    <h3 class="fcf-h3">Contact us</h3>
-
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
-
-        
-
-    </form>
+        <button type="submit">Send</button>
+      </form>
     </div>
-
-</div>
-
-</body>
+  </body>
 </html>
