@@ -16,8 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Mukta&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -25,140 +27,145 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
 
-    <style>
-       .maintitle {
-        width: 600px;
-        height: 20px;
-        float: left;
-        padding: 10px;
-         border:20px;
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
-    
-      
+    <style>
+      .maintitle {
+        width: 100%;
+        height: 2px;
+        padding: 10px;
+        border: 10px;
+        text-align: center;
+        font-size: 36px;
+      }
+
+      .title {
+        width: 100%;
+        height: 2px;
+        float: right;
+        padding: 10px;
+        border: 10px;
+        text-align: right;
+      }
+      .title2 {
+        width: 100%;
+        height: 2px;
+        float: right;
+        padding: 10px;
+        border: 10px;
+        text-align: left;
       }
       
-      .title {
-        width: 240px;
-        height: 20px;
-        float: right;
-        padding: 20px;
-        border: 20px;
+      a{
+        font-size: 15vw;
+      }
+      a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
 
-        text-align: center;
+      a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: grey;
+        background-color: white;
+        text-decoration: bold;
+      }
+
+      a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: bold;
       }
 
       p3 {
         display: block;
       }
     </style>
+
+     <section class="navlayout">
+      
+            <div>
+                 <a href="arch.html">
+        <p3>
+          <div class="title" >WORK</div>
+        </p3>
+      </a>
+              
+                </div>
+         <div>        
+    <a href="index.html">
+      <article class="maintitle"><b>KAIMIKEL</b></article>
+    </a>
+</div>
+      
+   <div>  
+     <a href="contact.html">
+        <p3>
+          <div class="title2" text-align="left">CONTACT</div>
+        </p3>
+      </a>
+
+    
+     </div>
+      
+      
+      </section>
+    <p>
+      <br />
+    </p>
   </head>
+
   <body>
-    <article id="title" class= "maintitle" >KAIMIKEL</article>
 
-    <article>
-      <p3>
-        <div class="title" href= "contact.html">CONTACT</div>
-      </p3>
-      
-      <p3>
-        <div class="title">ARCHITECTURE</div>
-      </p3>
+<link href="contact-form.css" rel="stylesheet">
 
-      <p3>
-        <div class="title">VISUALIZATION</div>
-      </p3>
+<div class="fcf-body">
 
-      <p3>
-        <div class="title">PRODUCT</div>
-      </p3>
-      
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
         
-    </article>
-    <!-- this is the start of content -->
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
 
-    <p>
-      <br />
-      <br />
-   <br />
-      <br />
-     
-      <video playsinline autoplay muted loop>
-        <source
-          src="https://cdn.glitch.me/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/MillionDollarTheatreWithObjectDetect2.mp4?v=1653421818682"
-        />
-      </video>
-      <br />
-    </p>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
 
-    <hr />
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
 
-    <p>
-      <b>Rig City</b> <i>Cajon Pass, California</i>
-      <br />
-      A civic campus that explores the relation of architecture to landscape in
-      a harsh Southern California desert climate.
-      <br />
-      <video playsinline autoplay muted loop>
-        <source
-          src="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/Vertical_Rehm_Johnson_KaiMikel_RoofPan_001.mp4?v=1653422247066"
-        />
-      </video>
-      <br />
-    </p>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
 
-    <hr />
+        
 
-    <p>
-      <b>Eastern Columbia Augmentation</b> <i> Downtown Los Angeles </i>
-      <br />
-      An adaptive reuse study of a landmark building in Downtown Los Angeles
-      aimed at improving envelope performance and introducing occupiable
-      exterior space within the facade.
-      <br />
-      <video playsinline autoplay muted loop>
-        <source
-          src="https://cdn.glitch.me/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/ExteriorPanFinal.mp4?v=1653422562997"
-        />
-      </video>
+    </form>
+    </div>
 
-      <br />
-    </p>
+</div>
 
-    <hr />
-
-    <p>
-      <b>NFerno</b>
-      <br />
-      A digital artwork series in exploring narrative based AI Imagery.
-      <br />
-      <video playsinline autoplay muted loop>
-        <source
-          src="https://cdn.glitch.me/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/PhlegysAnim2(3).mp4?v=1653434430136"
-        />
-      </video>
-      <br />
-    </p>
-
-    <hr />
-
-    <p>
-      <b>Album Artwork</b>
-      <br />
-      A series of digital drawings created for Album Artwork.
-      <br />
-      <video playsinline autoplay muted loop>
-        <source
-          src="https://cdn.glitch.me/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/final_video%20version1_Trim.mp4?v=1653435180000"
-        />
-      </video>
-      <br />
-    </p>
-  </body>
+</body>
 </html>
-
-
- <b>Million Dollar Theatre</b> <i> Downtown Los Angeles </i>
-      <br />
-      A visual study in machine vision capturing and augmenting a historic
-      facade in Downtown Los Angeles.
-      <br />
