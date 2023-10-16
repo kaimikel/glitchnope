@@ -162,7 +162,7 @@ p4 {
   transition: 1s ease;
   position: relative;
   z-index: 100;
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(255, 255, 255, 0.7);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 
   -webkit-filter: brightness(100%);
