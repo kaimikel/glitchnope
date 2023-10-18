@@ -265,6 +265,9 @@ p4 {
   padding: 6px;
 }
 
+.overridewidth {
+  width:40% !important;}
+
 .swiper-slide-active & {
   animation: slide-in 0.3s ease-in both;
 }
