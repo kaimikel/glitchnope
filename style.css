@@ -265,29 +265,6 @@ p4 {
   padding: 6px;
 }
 
-.swiper-slider {
-  width: 80%;
-  text-align: center;
-  font-size: 18px;
-  object-fit: cover;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center ;
-  align-items: center;
-  padding: 6px;
-}
-
-.swiper-wrapper {
-  width: 10px;
-}
-
-
-
-.swiper-slide video{
-  height: 100%;
-  width: 100%;
-  
-}
 .swiper-slide-active & {
   animation: slide-in 0.3s ease-in both;
 }
