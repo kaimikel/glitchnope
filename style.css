@@ -266,8 +266,12 @@ p4 {
 }
 
 .overridewidth {
-  width:40% !important;}
+  width:30% !important;
+}
 
+.contain{
+  object-fit: contain !important;
+}
 .swiper-slide-active & {
   animation: slide-in 0.3s ease-in both;
 }
