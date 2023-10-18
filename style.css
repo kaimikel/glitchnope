@@ -373,6 +373,10 @@ p4 {
   box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
 }
 
+.gallery-tall {
+  width: 95%;
+  box-shadow: 0 50px 75px 50px rgba(#1e1e1e, 0.18);
+}
 
 
 .vignette-shadow-ex {
