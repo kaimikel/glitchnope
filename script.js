@@ -42,4 +42,3 @@ var galleryMain = new Swiper(".gallery-main", {
     bulletClass: `swiper-pagination-bullet`,
   },
 });
-
