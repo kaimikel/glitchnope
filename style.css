@@ -223,7 +223,6 @@ p4 {
 .overlay {
   position: absolute;
   top: 0;
-  background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.2); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
@@ -235,6 +234,15 @@ p4 {
   padding: 4px;
   text-align: right;
   font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.overlaybottom{
+  bottom:0;
+  top: auto !important;
+  font-size: 1VH !important;
+  font-family: "futura-pt", sans-serif !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+  letter-spacing: 1px !important;
 }
 
 .container:hover .overlay {
@@ -253,6 +261,11 @@ p4 {
   margin-right: 10px;
 }
 
+.sticky{
+  position: sticky !important;
+  
+}
+
 .swiper-slide {
   width: 80%;
   text-align: center;
@@ -266,7 +279,7 @@ p4 {
 }
 
 .overridewidth {
-  width:30% !important;
+  width:AUTO !important;
 }
 
 .contain{
