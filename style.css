@@ -572,12 +572,12 @@ p4 {
 
 .borderhover video:hover{
     border: 4px solid #ffffff;
-   transition: 2s ease;
+   transition: 1s ease;
 }
 
 .borderhover img:hover{
     border: 4px solid #ffffff;
-   transition: 2s ease;
+   transition: 1s ease;
 }
 
 
