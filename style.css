@@ -228,7 +228,6 @@ p4 {
   width: 100%;
   transition: 1s ease;
   opacity: 0.1;
-  color: b;
   font-size: 5VH;
   letter-spacing: 2px;
   padding: 4px;
@@ -255,6 +254,14 @@ p4 {
 }
 
 .container:hover .overlay {
+  opacity: 1;
+  transform: scale(1.2);
+  font-size: 6VH;
+  z-index: 101;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.coversmall:hover .overlay {
   opacity: 1;
   transform: scale(1.2);
   font-size: 6VH;
