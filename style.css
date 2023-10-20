@@ -540,19 +540,30 @@ p4 {
   }
 }
 
-.colorhover img {
+.colorhover video {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -webkit-transition: all 1s ease;
 }
 
-.colorhover img:hover {
+.colorhover video:hover {
   filter: grayscale(0%);
   filter: gray;
   -webkit-filter: grayscale(0%);
   filter: none;
   transition: 1s ease;
 }
+
+.borderhover video:hover{
+    border: 4px solid #ffffff;
+   transition: 1s ease;
+}
+
+.borderhover img:hover{
+    border: 4px solid #ffffff;
+   transition: 1s ease;
+}
+
 
 .popup .popuptext {
   visibility: hidden;
