@@ -245,6 +245,15 @@ p4 {
   letter-spacing: 1px !important;
 }
 
+.overlaymid{
+  bottom:20%;
+  top: auto !important;
+  font-size: 1VH !important;
+  font-family: "futura-pt", sans-serif !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+  letter-spacing: 1px !important;
+}
+
 .container:hover .overlay {
   opacity: 1;
   transform: scale(1.2);
