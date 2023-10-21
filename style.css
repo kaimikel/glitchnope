@@ -247,13 +247,24 @@ p4 {
 .nomove{
  transform: translate3d(0px, 0px, 0px) !important;
 }
+
 .overlaymid{
-  bottom:20%;
+  bottom:10%;
   top: auto !important;
-  font-size: 1VH !important;
+  font-size: 2VH !important;
   font-family: "futura-pt", sans-serif !important;
   background: rgba(0, 0, 0, 0.5) !important;
   letter-spacing: 1px !important;
+}
+
+.overlaymid:hover{
+  bottom:10%;
+  top: auto !important;
+  font-size: 2VH !important;
+  font-family: "futura-pt", sans-serif !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+  letter-spacing: 1px !important;
+  opacity: 0.9 !important;
 }
 
 .container:hover .overlay {
