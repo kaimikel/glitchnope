@@ -249,7 +249,7 @@ p4 {
 }
 
 .overlaymid{
-  bottom:10%;
+  bottom:10% !important;
   width: 90% !important;
   top: auto !important;
   font-size: 1.5VH !important;
