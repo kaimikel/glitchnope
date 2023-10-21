@@ -41,4 +41,9 @@ var galleryMain = new Swiper(".gallery-main", {
     clickable: true,
     bulletClass: `swiper-pagination-bullet`,
   },
+  scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true,
+        dragSize: dragSize
+      }
 });
