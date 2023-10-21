@@ -568,7 +568,7 @@ p4 {
 .colorhover img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-  -webkit-transition: all 1s ease;
+
 }
 
 .colorhover img:hover {
@@ -580,7 +580,7 @@ p4 {
 .colorhover video {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-  -webkit-transition: all 1s ease;
+ 
 }
 
 .colorhover video:hover {
