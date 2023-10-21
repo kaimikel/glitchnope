@@ -47,7 +47,12 @@ img2{
 }
 
 
-
+v1{
+  border-left: 6px solid white;
+  Opacity: .5;
+  height: 40px;
+  botttom: 0;
+}
 
 video2 {
   height: auto;
