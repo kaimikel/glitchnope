@@ -252,6 +252,7 @@ p4 {
   bottom:10% !important;
   width: 90% !important;
   top: auto !important;
+  opacity: 0.25 !important;
   font-size: 1VH !important;
   font-family: "futura-pt", sans-serif !important;
   background: rgba(0, 0, 0, 0.5) !important;
