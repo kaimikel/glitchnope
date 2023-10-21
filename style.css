@@ -303,7 +303,7 @@ p4 {
 }
 
 .overridewidth {
-  width:AUTO !important;
+  display: inline-block !important;
 }
 
 .contain{
