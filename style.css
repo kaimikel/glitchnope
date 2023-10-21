@@ -252,7 +252,7 @@ p4 {
   bottom:10% !important;
   width: 90% !important;
   top: auto !important;
-  font-size: 1.5VH !important;
+  font-size: 1VH !important;
   font-family: "futura-pt", sans-serif !important;
   background: rgba(0, 0, 0, 0.5) !important;
   letter-spacing: 1px !important;
@@ -261,7 +261,7 @@ p4 {
 .overlaymid:hover{
   bottom:10%;
   top: auto !important;
-  font-size: 2VH !important;
+  font-size: 1.5VH !important;
   font-family: "futura-pt", sans-serif !important;
   background: rgba(0, 0, 0, 0.7) !important;
   letter-spacing: 1px !important;
