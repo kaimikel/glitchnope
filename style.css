@@ -317,7 +317,7 @@ p4 {
 
 .overridewidth {
   display: inline-block !important;
-  width: auto !important;
+  width: fit-content !important;
 }
 
 .contain{
