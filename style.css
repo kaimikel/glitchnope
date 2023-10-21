@@ -250,9 +250,9 @@ p4 {
 
 .overlaymid{
   bottom:10% !important;
-  width: 90% !important;
+  width: 95% !important;
   top: auto !important;
-  opacity: 0.25 !important;
+  opacity: 0.4 !important;
   font-size: 1VH !important;
   font-family: "futura-pt", sans-serif !important;
   background: rgba(0, 0, 0, 0.5) !important;
