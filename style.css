@@ -324,7 +324,7 @@ p4 {
   background: rgba(255, 255,255, 0.6) !important;
 }
 
-.swiper-container-horizontal > .swiper-scrollbar {
+.swiper-horizontal > .swiper-scrollbar {
   border-radius: 2px;
   height: 30px;
   width: 200px;
