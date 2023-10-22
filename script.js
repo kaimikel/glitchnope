@@ -19,8 +19,6 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
 });
 
 
-var swiperSelector = ('.swiper-container');
-
 
 
 var galleryMain = new Swiper(".gallery-main", {
