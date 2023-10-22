@@ -320,6 +320,10 @@ p4 {
   padding: 6px;
 }
 
+.swiper-scrollbar {
+  background: rgba(255, 255,255, 0.6);
+}
+
 .swiper-container-horizontal > .swiper-scrollbar {
   border-radius: 2px;
   height: 30px;
@@ -327,7 +331,6 @@ p4 {
   bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(255, 255,255, 0.9);
 }
 
 .overridewidth {
