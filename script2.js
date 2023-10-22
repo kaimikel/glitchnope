@@ -6,6 +6,10 @@ var swiper = new Swiper(".swiper-container", {
   mousewheel: {
     releaseOnEdges: true,
   },
+  scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true,
+      }
 });
 
 var thumb = document.querySelectorAll(".thumbContainer");
