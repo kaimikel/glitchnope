@@ -1,5 +1,5 @@
 var swiper = new Swiper(".swiper-container", {
-  loopedSlides: auto,
+  loopedSlides: 8,
   loop: true,
   slidesPerView: "auto",
   freeMode: true,
