@@ -334,6 +334,16 @@ p4 {
   padding: 4px;
 }
 
+.swiper-scrollbar-drag {
+    height: 100% !important;
+    width: 100% !important;
+    position: relative !important;
+    background: rgba(255, 255, 255, 0.75) !important;
+    border-radius: 10px!important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
 .overridewidth {
   display: inline-block !important;
   width: fit-content !important;
