@@ -21,11 +21,7 @@ var galleryThumbs = new Swiper(".gallery-thumbs", {
 
 var swiperSelector = ('.swiper-container');
 
-swiperSelector.each(function(index) {
-    var this : (this);
-    this.addClass('swiper-slider-' + index);
 
-    var dragSize = this.data('drag-size')
 
 var galleryMain = new Swiper(".gallery-main", {
   watchOverflow: true,
@@ -53,6 +49,6 @@ var galleryMain = new Swiper(".gallery-main", {
   scrollbar: {
         el: '.swiper-scrollbar',
         draggable: true,
-        dragSize: dragSize
-      }
+      },
+
 });
