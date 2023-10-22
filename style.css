@@ -212,10 +212,11 @@ p4 {
 }
 
 .coversmall {
-  height: 95%;
+  height: 95% !important;
   object-fit: cover;
   overflow: hidden;
   justify-content: RIGHT;
+  display: inline-block;
   /*height: 300px;  optional, you can remove it, but in my case it was good */
 }
 
