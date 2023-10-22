@@ -322,11 +322,12 @@ p4 {
 
 .swiper-container-horizontal > .swiper-scrollbar {
   border-radius: 2px;
-  height: 5px;
+  height: 30px;
   width: 200px;
-  bottom: 0;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
+  background: rgba(255, 255,255, 0.9);
 }
 
 .overridewidth {
