@@ -328,7 +328,7 @@ p4 {
   border-radius: 2px !important;
   height: 1% !important;
   width: 90% !important;
-  bottom: 1% !important;
+  bottom: 5% !important;
   left: 5% !important;
   border-color:white !important;
   padding: 4px;
@@ -436,7 +436,7 @@ p4 {
 .gallery-container {
   position: absolute;
   width: 98%;
-  height: 90vh;
+  height: 88vh;
   left: 18px;
   display: flex;
   justify-content: space-between;
