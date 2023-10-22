@@ -436,7 +436,7 @@ p4 {
 .gallery-container {
   position: absolute;
   width: 98%;
-  height: 85vh;
+  height: 90vh;
   left: 18px;
   display: flex;
   justify-content: space-between;
