@@ -335,8 +335,8 @@ p4 {
 }
 
 .swiper-scrollbar-drag {
-    height: 100% !important;
-    width: 100% !important;
+    height: 200% !important;
+    width: 20% !important;
     position: relative !important;
     background: rgba(255, 255, 255, 0.75) !important;
     border-radius: 10px!important;
