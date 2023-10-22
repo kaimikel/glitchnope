@@ -220,6 +220,12 @@ p4 {
   /*height: 300px;  optional, you can remove it, but in my case it was good */
 }
 
+.coversmall video{
+  height: 95% !important;
+
+
+}
+
 .coverfit{
   object-fit: contain;
   overflow: hidden;
